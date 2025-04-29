@@ -8,6 +8,6 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY ./ /usr/share/nginx/html/
 
 # Expose cổng 80
-EXPOSE 80
+EXPOSE 8080
 
 # Lệnh khởi động mặc định của nginx đã có sẵn, không cần override
